@@ -1,0 +1,128 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.formulario {
+    color: darkred;
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.formularioOnlyRead {
+    color: whitesmoke;
+    background: #22c1c3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fdbb2d, #22c1c3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fdbb2d, #22c1c3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 45%;
+}
+
+
+label {
+    font-size: 1.5em;
+}
+
+.container {
+    max-width: 90%;
+    margin-top: 0;
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+form label,
+form input {
+    display: inline-block;
+    margin-right: 10px;
+    /* ajusta el margen según tus preferencias */
+}
+
+form input {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    /* ajusta el ancho según tus preferencias */
+    padding: 5px;
+    /* agrega un poco de espacio interno para mejorar la legibilidad */
+    border: 1px solid #ccc;
+    /* agrega un borde para separar visualmente los campos */
+    line-height: 2em;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+button:active {
+    background-color: #2f6527;
+}
+
+.formularioOnlyRead input {
+    background-color: black;
+    color: ghostwhite;
+    font-weight: 900;
+    width: 45%;
+}
+
+input[type="number"] {
+    border-radius: 20px;
+}
+
+.boton-glow {
+    background-color: #4CAF50;
+    /* Cambia esto por el color de fondo de tu botón */
+    color: white;
+    /* Cambia esto por el color del texto de tu botón */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #4CAF50;
+    /* Ajusta esto al color de tu botón */
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #4CAF50;
+    }
+
+    to {
+        box-shadow: 0 0 20px #4CAF50;
+    }
+}
