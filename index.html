@@ -9,7 +9,10 @@
 </head>
 
 <body>
-    <h1>Calculadora de Trading</h1>
+    <div class="misdivs">
+        <h1>Calculadora de Trading</h1>
+        <h2>Gestión de Riesgo</h2>
+    </div>
     <div class="container">
         <form class="formularioOnlyRead">
             <label for="capitalTotal">Total con apalancamiento:</label>
@@ -40,7 +43,15 @@
             <button type="button" onclick="calcular()" class="boton-glow">Calcular</button>
         </form>
     </div>
+    <div class="misdivs">
+    <aside>Aqui tienes mis enlaces principales <a href="https://linktr.ee/codeandopython" target="_blank" title="Linktree Codeando Python">Linktree Codeando Python</a></aside>
+        <img src="codeandopython.png" width="167px" height="167px" alt="Linktree Codeando Python" title="Linktree Codeando Python">
+    </div>
+    <div class="misdivs">
+        <h6>Tanto la idea cómo el prototipo en su totalidad son creación de Hackst3r Webmaster · Marzo de 2023</h6>
+    </div>
     <script type="text/javascript">
+
     function limpiarFormularios() {
         document.querySelector('.formularioOnlyRead').reset();
         document.querySelector('.formulario').reset();
