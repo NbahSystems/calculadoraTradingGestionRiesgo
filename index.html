@@ -57,7 +57,7 @@
         const capitalTotal = capitalReal * apalancamiento;
         const perdidaMaxima = capitalTotal * (porcentajeStopLoss / 100) * (porcentajeCuenta / 100);
         const tamanoMaximo = capitalTotal * (porcentajeCuenta / 100);
-        const numOperaciones = capitalTotal / perdidaMaxima;
+        const numOperaciones = capitalReal / perdidaMaxima;
 
         // Actualizamos los campos correspondientes en la página
         document.getElementById("numOperaciones").value = numOperaciones.toFixed(2);
