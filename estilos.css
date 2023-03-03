@@ -33,6 +33,7 @@ body {
 
 label {
     font-size: 1.5em;
+    width: 100%;
 }
 
 .container {
@@ -42,6 +43,8 @@ label {
     border-color: black;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    margin-left: 67px;
 }
 
 form label,
@@ -55,7 +58,7 @@ form input {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    width: 50%;
+    width: 15%;
     /* ajusta el ancho según tus preferencias */
     padding: 5px;
     /* agrega un poco de espacio interno para mejorar la legibilidad */
@@ -125,4 +128,10 @@ input[type="number"] {
     to {
         box-shadow: 0 0 20px #4CAF50;
     }
+}
+
+
+.misdivs {
+    background-color: floralwhite;
+    text-align: center;
 }
